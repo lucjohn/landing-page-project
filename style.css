@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #CBC0D3;
+    color: #FEEAFA;
+    padding: 15px 150px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    font-size: 50px;
+    font-weight: 700;
+}
+.header-links {
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+    font-weight: 900;
+}
+.signup-pic-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+#header-pic{
+    width: 50%;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+.pic-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    padding: 0px;
+    width: 40%;
+}
+h1{
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.subtext{
+    font-size: 20px;
+}
+.pic-text > button{
+    border: 0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #EFD3D7;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
